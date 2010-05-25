@@ -1,0 +1,15 @@
+
+= SixArm Ruby Gem: Sign In Simple
+
+Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
+Copyright:: Copyright (c) 2006-2010 Joel Parker Henderson
+License:: CreativeCommons License, Non-commercial Share Alike
+License:: LGPL, GNU Lesser General Public License
+
+Sign in simple methods for a typical rails web application.
+
+The defaults for this module are:
+- params[:username]
+- params[:password]
+- User.find_by_username
+
