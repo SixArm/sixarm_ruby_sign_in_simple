@@ -1,543 +1,734 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <head>
+    <meta name="Content-Type" content="text/html; charset=utf-8" />
+<title>Module: SignInSimple</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="css/common.css" type="text/css" media="screen" charset="utf-8" />
 
-	<title>Module: SignInSimple</title>
+<script type="text/javascript" charset="utf-8">
+  relpath = '';
+  if (relpath != '') relpath += '/';
+</script>
+<script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/app.js"></script>
 
-	<link rel="stylesheet" href="./rdoc.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <script type="text/javascript" charset="utf-8">
+      if (window.top.frames.main) document.body.className = 'frames';
+    </script>
+    
+    <div id="header">
+      <div id="menu">
+  
+    <a href="_index.html">Index (S)</a> &raquo; 
+    
+    
+    <span class="title">SignInSimple</span>
+  
+  
+  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
+</div>
 
-	<script src="./js/jquery.js" type="text/javascript"
-		charset="utf-8"></script>
-	<script src="./js/thickbox-compressed.js" type="text/javascript"
-		charset="utf-8"></script>
-	<script src="./js/quicksearch.js" type="text/javascript"
-		charset="utf-8"></script>
-	<script src="./js/darkfish.js" type="text/javascript"
-		charset="utf-8"></script>
+      <div id="search">
+  <a id="class_list_link" href="#">Class List</a>
+  <a id="method_list_link" href="#">Method List</a>
+  <a id ="file_list_link" href="#">File List</a>
+</div>
 
-</head>
-<body class="module">
+      <div class="clear"></div>
+    </div>
+    
+    <iframe id="search_frame"></iframe>
+    
+    <div id="content"><h1>Module: SignInSimple
+  
+  
+  
+</h1>
 
-	<div id="metadata">
-		<div id="file-metadata">
-			<div id="file-list-section" class="section">
-				<h3 class="section-header">In Files</h3>
-				<div class="section-body">
-					<ul>
-					
-						<li><a href="./lib/sixarm_ruby_sign_in_simple_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
-							class="thickbox" title="lib/sixarm_ruby_sign_in_simple.rb">lib/sixarm_ruby_sign_in_simple.rb</a></li>
-					
-					</ul>
-				</div>
-			</div>
+<dl class="box">
+  
+  
+    
+  
+    
+      <dt class="r1">Includes:</dt>
+      <dd class="r1">SignIn</dd>
+      
+    
+  
+  
+  
+    <dt class="r2 last">Defined in:</dt>
+    <dd class="r2 last">lib/sixarm_ruby_sign_in_simple.rb</dd>
+  
+</dl>
+<div class="clear"></div>
 
-			
-		</div>
 
-		<div id="class-metadata">
 
-			<!-- Parent Class -->
-			
+  
 
-			<!-- Namespace Contents -->
-			
+  
+    <h2>
+      Instance Method Summary
+      <small>(<a href="#" class="summary_toggle">collapse</a>)</small>
+    </h2>
 
-			<!-- Method Quickref -->
-			
-			<div id="method-list-section" class="section">
-				<h3 class="section-header">Methods</h3>
-				<ul class="link-list">
-					
-					<li><a href="#M000000">#sign_in_attempt</a></li>
-					
-					<li><a href="#M000018">#sign_in_error_no_password</a></li>
-					
-					<li><a href="#M000019">#sign_in_error_no_password_message</a></li>
-					
-					<li><a href="#M000011">#sign_in_error_no_username</a></li>
-					
-					<li><a href="#M000012">#sign_in_error_no_username_message</a></li>
-					
-					<li><a href="#M000003">#sign_in_failure</a></li>
-					
-					<li><a href="#M000009">#sign_in_failure_message</a></li>
-					
-					<li><a href="#M000020">#sign_in_not_found</a></li>
-					
-					<li><a href="#M000021">#sign_in_not_found_message</a></li>
-					
-					<li><a href="#M000013">#sign_in_password</a></li>
-					
-					<li><a href="#M000010">#sign_in_username</a></li>
-					
-				</ul>
-			</div>
-			
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#sign_in_attempt-instance_method" title="#sign_in_attempt (instance method)">- (Object) <strong>sign_in_attempt</strong>(options = nil) </a>
+    
 
-			<!-- Included Modules -->
-			
-			<div id="includes-section" class="section">
-				<h3 class="section-header">Included Modules</h3>
-				<ul class="link-list">
-				
-				
-					<li><span class="include">SignIn</span></li>
-				
-				
-				</ul>
-			</div>
-			
-		</div>
+    
+  </span>
+  
+  
+  
+  
+  
+  
 
-		<div id="project-metadata">
-			
-			
-			<div id="fileindex-section" class="section project-section">
-				<h3 class="section-header">Files</h3>
-				<ul>
-				
-					<li class="file"><a href="./README_rdoc.html">README.rdoc</a></li>
-				
-					<li class="file"><a href="./sixarm_ruby_sign_in_simple_gemspec.html">sixarm_ruby_sign_in_simple.gemspec</a></li>
-				
-					<li class="file"><a href="./sixarm_ruby_sign_in_simple_sha512_txt.html">sixarm_ruby_sign_in_simple.sha512.txt</a></li>
-				
-				</ul>
-			</div>
-			
+  
+    <span class="summary_desc"><div class='inline'><p>
+##################################################################.
+</p>
+</div></span>
+  
+</li>
 
-			<div id="classindex-section" class="section project-section">
-				<h3 class="section-header">Class Index
-					<span class="search-toggle"><img src="./images/find.png"
-						height="16" width="16" alt="[+]"
-						title="show/hide quicksearch" /></span></h3>
-				<form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
-				<fieldset>
-					<legend>Quicksearch</legend>
-					<input type="text" name="quicksearch" value=""
-						class="quicksearch-field" />
-				</fieldset>
-				</form>
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#sign_in_error_no_password-instance_method" title="#sign_in_error_no_password (instance method)">- (Object) <strong>sign_in_error_no_password</strong>(options = nil) </a>
+    
 
-				<ul class="link-list">
-				
-					<li><a href="./SignInSimple.html">SignInSimple</a></li>
-				
-					<li><a href="./SignInSimpleTest.html">SignInSimpleTest</a></li>
-				
-					<li><a href="./User.html">User</a></li>
-				
-					<li><a href="./UsersController.html">UsersController</a></li>
-				
-				</ul>
-				<div id="no-class-search-results" style="display: none;">No matching classes.</div>
-			</div>
+    
+  </span>
+  
+  
+  
+  
+  
+  
 
-			
-		</div>
-	</div>
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
 
-	<div id="documentation">
-		<h1 class="module">SignInSimple</h1>
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#sign_in_error_no_password_message-instance_method" title="#sign_in_error_no_password_message (instance method)">- (Object) <strong>sign_in_error_no_password_message</strong>(options = nil) </a>
+    
 
-		<div id="description">
-			
-		</div>
+    
+  </span>
+  
+  
+  
+  
+  
+  
 
-		<!-- Constants -->
-		
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
 
-		<!-- Attributes -->
-		
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#sign_in_error_no_username-instance_method" title="#sign_in_error_no_username (instance method)">- (Object) <strong>sign_in_error_no_username</strong>(options = nil) </a>
+    
 
-		<!-- Methods -->
-		
-		<div id="public-instance-method-details" class="method-section section">
-			<h3 class="section-header">Public Instance Methods</h3>
+    
+  </span>
+  
+  
+  
+  
+  
+  
 
-		
-			<div id="sign-in-attempt-method" class="method-detail ">
-				<a name="M000000"></a>
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
 
-				<div class="method-heading">
-				
-					<span class="method-name">sign_in_attempt</span><span
-						class="method-args">(options=nil)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#sign_in_error_no_username_message-instance_method" title="#sign_in_error_no_username_message (instance method)">- (Object) <strong>sign_in_error_no_username_message</strong>(options = nil) </a>
+    
 
-				<div class="method-description">
-					
-					<p>
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#sign_in_failure-instance_method" title="#sign_in_failure (instance method)">- (Object) <strong>sign_in_failure</strong>(options = nil) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#sign_in_failure_message-instance_method" title="#sign_in_failure_message (instance method)">- (Object) <strong>sign_in_failure_message</strong>(options = nil) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#sign_in_not_found-instance_method" title="#sign_in_not_found (instance method)">- (Object) <strong>sign_in_not_found</strong>(options = nil) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#sign_in_not_found_message-instance_method" title="#sign_in_not_found_message (instance method)">- (Object) <strong>sign_in_not_found_message</strong>(options = nil) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#sign_in_password-instance_method" title="#sign_in_password (instance method)">- (Object) <strong>sign_in_password</strong>(options = nil) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#sign_in_username-instance_method" title="#sign_in_username (instance method)">- (Object) <strong>sign_in_username</strong>(options = nil) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+
+  
+
+  <div id="instance_method_details" class="method_details_list">
+    <h2>Instance Method Details</h2>
+    
+    
+      <div class="method_details first">
+  <p class="signature first" id="sign_in_attempt-instance_method">
+  
+    - (<tt>Object</tt>) <strong>sign_in_attempt</strong>(options = nil) 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    <p>
+##################################################################
+</p>
+<p>
 Implement interface of SignIn
 </p>
-					
-
-					
-					<div class="method-source-code"
-						id="sign-in-attempt-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_sign_in_simple.rb, line 31</span>
-31:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">sign_in_attempt</span>(<span class="ruby-identifier">options</span>=<span class="ruby-keyword kw">nil</span>)
-32:     <span class="ruby-identifier">username</span>=<span class="ruby-identifier">sign_in_username</span>; <span class="ruby-identifier">username</span> <span class="ruby-keyword kw">and</span> <span class="ruby-identifier">username!</span>=<span class="ruby-value str">''</span> <span class="ruby-keyword kw">or</span> <span class="ruby-identifier">sign_in_error_no_username</span>(<span class="ruby-identifier">options</span>)
-33:     <span class="ruby-identifier">password</span>=<span class="ruby-identifier">sign_in_password</span>; <span class="ruby-identifier">password</span> <span class="ruby-keyword kw">and</span> <span class="ruby-identifier">password!</span>=<span class="ruby-value str">''</span> <span class="ruby-keyword kw">or</span> <span class="ruby-identifier">sign_in_error_no_password</span>(<span class="ruby-identifier">options</span>)
-34:     <span class="ruby-identifier">u</span>=<span class="ruby-constant">User</span>.<span class="ruby-identifier">find_by_username</span>(<span class="ruby-identifier">username</span>)
-35:     <span class="ruby-identifier">u</span> <span class="ruby-keyword kw">and</span> <span class="ruby-identifier">u</span>.<span class="ruby-identifier">password</span><span class="ruby-operator">==</span><span class="ruby-identifier">password</span> <span class="ruby-keyword kw">or</span> <span class="ruby-identifier">sign_in_not_found</span>(<span class="ruby-identifier">options</span>)
-36:     <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">current_user</span>=<span class="ruby-identifier">u</span>
-37:   <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="sign-in-error-no-password-method" class="method-detail ">
-				<a name="M000018"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">sign_in_error_no_password</span><span
-						class="method-args">(options=nil)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="sign-in-error-no-password-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_sign_in_simple.rb, line 71</span>
-71:  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">sign_in_error_no_password</span>(<span class="ruby-identifier">options</span>=<span class="ruby-keyword kw">nil</span>)
-72:   <span class="ruby-identifier">raise</span> <span class="ruby-constant">SecurityError</span>, <span class="ruby-identifier">sign_in_error_no_password_message</span>(<span class="ruby-identifier">options</span>)
-73:  <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="sign-in-error-no-password-message-method" class="method-detail ">
-				<a name="M000019"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">sign_in_error_no_password_message</span><span
-						class="method-args">(options=nil)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="sign-in-error-no-password-message-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_sign_in_simple.rb, line 75</span>
-75:  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">sign_in_error_no_password_message</span>(<span class="ruby-identifier">options</span>=<span class="ruby-keyword kw">nil</span>)
-76:   <span class="ruby-value str">&quot;Please type in your password.&quot;</span>
-77:  <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="sign-in-error-no-username-method" class="method-detail ">
-				<a name="M000011"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">sign_in_error_no_username</span><span
-						class="method-args">(options=nil)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="sign-in-error-no-username-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_sign_in_simple.rb, line 59</span>
-59:  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">sign_in_error_no_username</span>(<span class="ruby-identifier">options</span>=<span class="ruby-keyword kw">nil</span>)
-60:   <span class="ruby-identifier">raise</span> <span class="ruby-constant">SecurityError</span>, <span class="ruby-identifier">sign_in_error_no_username_message</span>(<span class="ruby-identifier">options</span>)
-61:  <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="sign-in-error-no-username-message-method" class="method-detail ">
-				<a name="M000012"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">sign_in_error_no_username_message</span><span
-						class="method-args">(options=nil)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="sign-in-error-no-username-message-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_sign_in_simple.rb, line 63</span>
-63:  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">sign_in_error_no_username_message</span>(<span class="ruby-identifier">options</span>=<span class="ruby-keyword kw">nil</span>)
-64:   <span class="ruby-value str">&quot;Please type in your username.&quot;</span>
-65:  <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="sign-in-failure-method" class="method-detail ">
-				<a name="M000003"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">sign_in_failure</span><span
-						class="method-args">(options=nil)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="sign-in-failure-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_sign_in_simple.rb, line 39</span>
-39:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">sign_in_failure</span>(<span class="ruby-identifier">options</span>=<span class="ruby-keyword kw">nil</span>)
-40:     <span class="ruby-identifier">flash</span>[<span class="ruby-identifier">:warning</span>]=<span class="ruby-identifier">sign_in_failure_message</span>(<span class="ruby-identifier">options</span>)
-41:   <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="sign-in-failure-message-method" class="method-detail ">
-				<a name="M000009"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">sign_in_failure_message</span><span
-						class="method-args">(options=nil)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p>
-Helpers
+<p>
+##################################################################
 </p>
-					
-
-					
-					<div class="method-source-code"
-						id="sign-in-failure-message-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_sign_in_simple.rb, line 51</span>
-51:  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">sign_in_failure_message</span>(<span class="ruby-identifier">options</span>=<span class="ruby-keyword kw">nil</span>)
-52:    <span class="ruby-value str">&quot;Sorry, your sign in failed.&quot;</span> <span class="ruby-operator">+</span> (<span class="ruby-identifier">$!</span> <span class="ruby-operator">?</span> <span class="ruby-node">&quot; #{$!}&quot;</span> <span class="ruby-operator">:</span> <span class="ruby-value str">''</span>)
-53:  <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="sign-in-not-found-method" class="method-detail ">
-				<a name="M000020"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">sign_in_not_found</span><span
-						class="method-args">(options=nil)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="sign-in-not-found-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_sign_in_simple.rb, line 79</span>
-79:  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">sign_in_not_found</span>(<span class="ruby-identifier">options</span>=<span class="ruby-keyword kw">nil</span>)
-80:   <span class="ruby-identifier">raise</span> <span class="ruby-constant">SecurityError</span>, <span class="ruby-identifier">sign_in_not_found_message</span>(<span class="ruby-identifier">options</span>)
-81:  <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="sign-in-not-found-message-method" class="method-detail ">
-				<a name="M000021"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">sign_in_not_found_message</span><span
-						class="method-args">(options=nil)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="sign-in-not-found-message-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_sign_in_simple.rb, line 83</span>
-83:  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">sign_in_not_found_message</span>(<span class="ruby-identifier">options</span>=<span class="ruby-keyword kw">nil</span>)
-84:   <span class="ruby-value str">&quot;Sorry, the username/password combination is not registered.&quot;</span>
-85:  <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="sign-in-password-method" class="method-detail ">
-				<a name="M000013"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">sign_in_password</span><span
-						class="method-args">(options=nil)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="sign-in-password-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_sign_in_simple.rb, line 67</span>
-67:  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">sign_in_password</span>(<span class="ruby-identifier">options</span>=<span class="ruby-keyword kw">nil</span>)
-68:   <span class="ruby-identifier">params</span>[<span class="ruby-identifier">:password</span>]
-69:  <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-			<div id="sign-in-username-method" class="method-detail ">
-				<a name="M000010"></a>
-
-				<div class="method-heading">
-				
-					<span class="method-name">sign_in_username</span><span
-						class="method-args">(options=nil)</span>
-					<span class="method-click-advice">click to toggle source</span>
-				
-				</div>
-
-				<div class="method-description">
-					
-					<p class="missing-docs">(Not documented)</p>
-					
-
-					
-					<div class="method-source-code"
-						id="sign-in-username-source">
-<pre>
-    <span class="ruby-comment cmt"># File lib/sixarm_ruby_sign_in_simple.rb, line 55</span>
-55:  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">sign_in_username</span>(<span class="ruby-identifier">options</span>=<span class="ruby-keyword kw">nil</span>)
-56:   <span class="ruby-identifier">params</span>[<span class="ruby-identifier">:username</span>]
-57:  <span class="ruby-keyword kw">end</span></pre>
-					</div>
-					
-				</div>
-
-				
-			</div>
-
-		
-		</div>
-	
-
-	</div>
 
 
-	<div id="rdoc-debugging-section-dump" class="debugging-section">
-	
-		<p>Disabled; run with --debug to generate this.</p>
-	
-	</div>
+  </div>
+</div>
+<div class="tags">
+  
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
 
-	<div id="validator-badges">
-		<p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
-		<p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
-			Rdoc Generator</a> 1.1.6</small>.</p>
-	</div>
 
-</body>
+31
+32
+33
+34
+35
+36
+37</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_sign_in_simple.rb', line 31</span>
+
+<span class='kw'>def</span> <span class='id sign_in_attempt'>sign_in_attempt</span><span class='lparen'>(</span><span class='id options'>options</span><span class='op'>=</span><span class='kw'>nil</span><span class='rparen'>)</span>
+  <span class='id username'>username</span><span class='op'>=</span><span class='id sign_in_username'>sign_in_username</span><span class='semicolon'>;</span> <span class='id username'>username</span> <span class='kw'>and</span> <span class='id username'>username</span><span class='op'>!=</span><span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_end'>'</span></span> <span class='kw'>or</span> <span class='id sign_in_error_no_username'>sign_in_error_no_username</span><span class='lparen'>(</span><span class='id options'>options</span><span class='rparen'>)</span>
+  <span class='id password'>password</span><span class='op'>=</span><span class='id sign_in_password'>sign_in_password</span><span class='semicolon'>;</span> <span class='id password'>password</span> <span class='kw'>and</span> <span class='id password'>password</span><span class='op'>!=</span><span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_end'>'</span></span> <span class='kw'>or</span> <span class='id sign_in_error_no_password'>sign_in_error_no_password</span><span class='lparen'>(</span><span class='id options'>options</span><span class='rparen'>)</span>
+  <span class='id u'>u</span><span class='op'>=</span><span class='const'>User</span><span class='period'>.</span><span class='id find_by_username'>find_by_username</span><span class='lparen'>(</span><span class='id username'>username</span><span class='rparen'>)</span>
+  <span class='id u'>u</span> <span class='kw'>and</span> <span class='id u'>u</span><span class='period'>.</span><span class='id password'>password</span><span class='op'>==</span><span class='id password'>password</span> <span class='kw'>or</span> <span class='id sign_in_not_found'>sign_in_not_found</span><span class='lparen'>(</span><span class='id options'>options</span><span class='rparen'>)</span>
+  <span class='kw'>self</span><span class='period'>.</span><span class='id current_user'>current_user</span><span class='op'>=</span><span class='id u'>u</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="sign_in_error_no_password-instance_method">
+  
+    - (<tt>Object</tt>) <strong>sign_in_error_no_password</strong>(options = nil) 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  <h3>Raises:</h3>
+<ul class="raise">
+  
+    <li>
+      
+        <span class='type'>(<tt>SecurityError</tt>)</span>
+      
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+71
+72
+73</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_sign_in_simple.rb', line 71</span>
+
+<span class='kw'>def</span> <span class='id sign_in_error_no_password'>sign_in_error_no_password</span><span class='lparen'>(</span><span class='id options'>options</span><span class='op'>=</span><span class='kw'>nil</span><span class='rparen'>)</span>
+ <span class='id raise'>raise</span> <span class='const'>SecurityError</span><span class='comma'>,</span> <span class='id sign_in_error_no_password_message'>sign_in_error_no_password_message</span><span class='lparen'>(</span><span class='id options'>options</span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="sign_in_error_no_password_message-instance_method">
+  
+    - (<tt>Object</tt>) <strong>sign_in_error_no_password_message</strong>(options = nil) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+75
+76
+77</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_sign_in_simple.rb', line 75</span>
+
+<span class='kw'>def</span> <span class='id sign_in_error_no_password_message'>sign_in_error_no_password_message</span><span class='lparen'>(</span><span class='id options'>options</span><span class='op'>=</span><span class='kw'>nil</span><span class='rparen'>)</span>
+ <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Please type in your password.</span><span class='tstring_end'>&quot;</span></span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="sign_in_error_no_username-instance_method">
+  
+    - (<tt>Object</tt>) <strong>sign_in_error_no_username</strong>(options = nil) 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  <h3>Raises:</h3>
+<ul class="raise">
+  
+    <li>
+      
+        <span class='type'>(<tt>SecurityError</tt>)</span>
+      
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+59
+60
+61</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_sign_in_simple.rb', line 59</span>
+
+<span class='kw'>def</span> <span class='id sign_in_error_no_username'>sign_in_error_no_username</span><span class='lparen'>(</span><span class='id options'>options</span><span class='op'>=</span><span class='kw'>nil</span><span class='rparen'>)</span>
+ <span class='id raise'>raise</span> <span class='const'>SecurityError</span><span class='comma'>,</span> <span class='id sign_in_error_no_username_message'>sign_in_error_no_username_message</span><span class='lparen'>(</span><span class='id options'>options</span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="sign_in_error_no_username_message-instance_method">
+  
+    - (<tt>Object</tt>) <strong>sign_in_error_no_username_message</strong>(options = nil) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+63
+64
+65</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_sign_in_simple.rb', line 63</span>
+
+<span class='kw'>def</span> <span class='id sign_in_error_no_username_message'>sign_in_error_no_username_message</span><span class='lparen'>(</span><span class='id options'>options</span><span class='op'>=</span><span class='kw'>nil</span><span class='rparen'>)</span>
+ <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Please type in your username.</span><span class='tstring_end'>&quot;</span></span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="sign_in_failure-instance_method">
+  
+    - (<tt>Object</tt>) <strong>sign_in_failure</strong>(options = nil) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+39
+40
+41</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_sign_in_simple.rb', line 39</span>
+
+<span class='kw'>def</span> <span class='id sign_in_failure'>sign_in_failure</span><span class='lparen'>(</span><span class='id options'>options</span><span class='op'>=</span><span class='kw'>nil</span><span class='rparen'>)</span>
+  <span class='id flash'>flash</span><span class='lbracket'>[</span><span class='symbol'>:warning</span><span class='rbracket'>]</span><span class='op'>=</span><span class='id sign_in_failure_message'>sign_in_failure_message</span><span class='lparen'>(</span><span class='id options'>options</span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="sign_in_failure_message-instance_method">
+  
+    - (<tt>Object</tt>) <strong>sign_in_failure_message</strong>(options = nil) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+51
+52
+53</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_sign_in_simple.rb', line 51</span>
+
+<span class='kw'>def</span> <span class='id sign_in_failure_message'>sign_in_failure_message</span><span class='lparen'>(</span><span class='id options'>options</span><span class='op'>=</span><span class='kw'>nil</span><span class='rparen'>)</span>
+  <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Sorry, your sign in failed.</span><span class='tstring_end'>&quot;</span></span> <span class='op'>+</span> <span class='lparen'>(</span><span class='gvar'>$!</span> <span class='op'>?</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'> </span><span class='embexpr_beg'>#{</span><span class='gvar'>$!</span><span class='rbrace'>}</span><span class='tstring_end'>&quot;</span></span> <span class='op'>:</span> <span class='tstring'><span class='tstring_beg'>'</span><span class='tstring_end'>'</span></span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="sign_in_not_found-instance_method">
+  
+    - (<tt>Object</tt>) <strong>sign_in_not_found</strong>(options = nil) 
+  
+
+  
+</p><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  <h3>Raises:</h3>
+<ul class="raise">
+  
+    <li>
+      
+        <span class='type'>(<tt>SecurityError</tt>)</span>
+      
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+79
+80
+81</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_sign_in_simple.rb', line 79</span>
+
+<span class='kw'>def</span> <span class='id sign_in_not_found'>sign_in_not_found</span><span class='lparen'>(</span><span class='id options'>options</span><span class='op'>=</span><span class='kw'>nil</span><span class='rparen'>)</span>
+ <span class='id raise'>raise</span> <span class='const'>SecurityError</span><span class='comma'>,</span> <span class='id sign_in_not_found_message'>sign_in_not_found_message</span><span class='lparen'>(</span><span class='id options'>options</span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="sign_in_not_found_message-instance_method">
+  
+    - (<tt>Object</tt>) <strong>sign_in_not_found_message</strong>(options = nil) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+83
+84
+85</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_sign_in_simple.rb', line 83</span>
+
+<span class='kw'>def</span> <span class='id sign_in_not_found_message'>sign_in_not_found_message</span><span class='lparen'>(</span><span class='id options'>options</span><span class='op'>=</span><span class='kw'>nil</span><span class='rparen'>)</span>
+ <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Sorry, the username/password combination is not registered.</span><span class='tstring_end'>&quot;</span></span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="sign_in_password-instance_method">
+  
+    - (<tt>Object</tt>) <strong>sign_in_password</strong>(options = nil) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+67
+68
+69</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_sign_in_simple.rb', line 67</span>
+
+<span class='kw'>def</span> <span class='id sign_in_password'>sign_in_password</span><span class='lparen'>(</span><span class='id options'>options</span><span class='op'>=</span><span class='kw'>nil</span><span class='rparen'>)</span>
+ <span class='id params'>params</span><span class='lbracket'>[</span><span class='symbol'>:password</span><span class='rbracket'>]</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <p class="signature " id="sign_in_username-instance_method">
+  
+    - (<tt>Object</tt>) <strong>sign_in_username</strong>(options = nil) 
+  
+
+  
+</p><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+55
+56
+57</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/sixarm_ruby_sign_in_simple.rb', line 55</span>
+
+<span class='kw'>def</span> <span class='id sign_in_username'>sign_in_username</span><span class='lparen'>(</span><span class='id options'>options</span><span class='op'>=</span><span class='kw'>nil</span><span class='rparen'>)</span>
+ <span class='id params'>params</span><span class='lbracket'>[</span><span class='symbol'>:username</span><span class='rbracket'>]</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+    
+    <div id="footer">
+  Generated on Mon Dec 13 18:00:04 2010 by 
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.6.3 (ruby-1.9.2).
+</div>
+
+  </body>
 </html>
-
