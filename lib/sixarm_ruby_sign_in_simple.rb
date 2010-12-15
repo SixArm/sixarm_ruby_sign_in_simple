@@ -1,13 +1,15 @@
-=begin rodc
+# -*- encoding: utf-8 -*-
+=begin rdoc
 
-= SixArm Ruby Gem: SignInSimple provides typical sign in for a Rails web application
+= SixArm Ruby Gem » SignInSimple
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright (c) 2006-2010 Joel Parker Henderson
-License:: CreativeCommons License, Non-commercial Share Alike
-License:: LGPL, GNU Lesser General Public License
+License:: Your choice of BSD, MIT, LGPL, or CreativeCommons Non-commercial Share Alike
 
-Sign in simple methods for a typical rails web application.
+SignInSimple provides typical sign in for a Rails web application.
+
+This uses a the approach of having the user enter a username and password.
 
 The defaults for this module are:
 - params[:username]
