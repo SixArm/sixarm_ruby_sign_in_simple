@@ -1,5 +1,4 @@
-
-= SixArm Ruby Gem: SignInSimple provides typical sign in for a Rails web application
+= SixArm.com » Ruby » SignInSimple gem for typical Rails user sign in
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright (c) 2006-2010 Joel Parker Henderson
