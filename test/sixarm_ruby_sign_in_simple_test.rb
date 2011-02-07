@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 require 'test/unit'
 require 'sixarm_ruby_sign_in_simple'
 require 'sixarm_ruby_application_controller_mock'
