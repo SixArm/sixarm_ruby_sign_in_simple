@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 =begin rdoc
 
 = SixArm.com » Ruby » SignInSimple gem for typical Rails user sign in
@@ -25,7 +26,7 @@ module SignInSimple
  include SignIn
 
  ####################################################################
- # 
+ #
  # Implement interface of SignIn
  #
  ####################################################################
@@ -42,9 +43,9 @@ module SignInSimple
     flash[:warning]=sign_in_failure_message(options)
   end
 
-  
+
  ####################################################################
- # 
+ #
  # Helpers
  #
  ####################################################################
@@ -57,7 +58,7 @@ module SignInSimple
  def sign_in_username(options=nil)
   params[:username]
  end
- 
+
  def sign_in_error_no_username(options=nil)
   raise SecurityError, sign_in_error_no_username_message(options)
  end
