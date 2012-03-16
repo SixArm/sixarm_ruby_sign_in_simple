@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
+require 'minitest/autorun'
 require 'simplecov'
 SimpleCov.start
-require 'minitest/autorun'
 require 'sixarm_ruby_sign_in_simple'
 require 'sixarm_ruby_application_controller_mock'
 
