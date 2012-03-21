@@ -1,22 +1,6 @@
 # -*- coding: utf-8 -*-
-
 =begin rdoc
-
-= SixArm.com » Ruby » SignInSimple gem for typical Rails user sign in
-
-Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
-Copyright:: Copyright (c) 2006-2011 Joel Parker Henderson
-License:: See LICENSE.txt file
-
-SignInSimple provides typical sign in for a Rails web application.
-
-This uses a the approach of having the user enter a username and password.
-
-The defaults for this module are:
-- params[:username]
-- params[:password]
-- User.find_by_username
-
+Please see README
 =end
 
 require 'sixarm_ruby_sign_in'

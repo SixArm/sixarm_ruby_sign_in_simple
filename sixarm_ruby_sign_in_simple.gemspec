@@ -16,10 +16,12 @@ Gem::Specification.new do |s|
   SOURCES             = []
   TESTERS             = []
 
-  s.files             = [".gemtest","Rakefile","README.md","LICENSE.txt"]
-                        ["lib/#{s.name}.rb"] + SOURCES.map{|x| "lib/#{s.name}/#{x}.rb"} +
-                        ["test/#{s.name}.rb"] + TESTERS.map{|x| "test/#{s.name}/#{x}"}
-  s.test_files        = SOURCES.map{|x| "test/#{s.name}/#{x}_test.rb"}
+  top_files           = [".gemtest", "Rakefile", "README.md", "VERSION"]
+  lib_files           = ["lib/#{s.name}.rb"]
+  test_files          = ["test/#{s.name}_test.rb"]
+
+  s.files             = top_files + lib_files + test_files
+  s.test_files        = test_files
 
   s.add_dependency('sixarm_ruby_sign_in', '>= 1.1.4')
   s.add_dependency('sixarm_ruby_application_controller_mock', '>= 1.2.6') # for test
