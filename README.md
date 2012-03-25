@@ -1,6 +1,7 @@
 # SixArm.com » Ruby » <br> SignInSimple gem for typical Rails user sign in
 
-* Docs: <http://sixarm.com/sixarm_ruby_sign_in_simple/doc>
+* Doc: <http://sixarm.com/sixarm_ruby_sign_in_simple/doc>
+* Gem: <http://rubygems.org/gems/sixarm_ruby_sign_in_simple>
 * Repo: <http://github.com/sixarm/sixarm_ruby_sign_in_simple>
 * Email: Joel Parker Henderson, <joel@sixarm.com>
 
