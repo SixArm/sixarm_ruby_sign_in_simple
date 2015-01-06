@@ -40,7 +40,7 @@ To enable high security for all our gems:
 
 To install with high security:
 
-    gem install sixarm_ruby_sign_in_simple --test --trust-policy HighSecurity
+    gem install sixarm_ruby_sign_in_simple --trust-policy HighSecurity
 
 
 ## Defaults
