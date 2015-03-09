@@ -1,4 +1,4 @@
-# SixArm.com » Ruby » <br> SignInSimple gem for typical Rails user sign in
+# Ruby » <br> SignInSimple gem for typical Rails user sign in
 
 * Doc: <http://sixarm.com/sixarm_ruby_sign_in_simple/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_sign_in_simple>
