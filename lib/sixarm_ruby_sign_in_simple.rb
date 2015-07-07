@@ -3,7 +3,7 @@
 Please see README
 =end
 
-require 'sixarm_ruby_sign_in'
+require "sixarm_ruby_sign_in"
 
 module SignInSimple
 
