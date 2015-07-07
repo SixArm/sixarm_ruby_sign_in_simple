@@ -50,8 +50,3 @@ The defaults for this module are:
     params[:username]
     params[:password]
     User.find_by_username
-
-
-## Changes
-
-* 2012-03-14 1.1.4 Update docs, tests
