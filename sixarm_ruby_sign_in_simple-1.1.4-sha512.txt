@@ -1,1 +1,0 @@
-d2f74f1477ac855eeb2e0d0bf960e368dab17427e76a364757e6e6d6c51d70fad031d726ee93ed1ccaca14c3577c26f63eb92770592c3ff52e9d1ff82bcc6e61  sixarm_ruby_sign_in_simple-1.1.4.gem

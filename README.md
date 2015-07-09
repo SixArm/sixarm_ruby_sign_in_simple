@@ -1,4 +1,7 @@
-# Ruby » <br> SignInSimple gem for typical Rails user sign in
+# SixArm.com » Ruby » <br> SignInSimple gem for typical Rails user sign in
+
+[![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_sign_in_simple.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_sign_in_simple)
+[![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_sign_in_simple.png)](https://travis-ci.org/SixArm/sixarm_ruby_sign_in_simple)
 
 * Doc: <http://sixarm.com/sixarm_ruby_sign_in_simple/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_sign_in_simple>
@@ -23,7 +26,7 @@ Install:
 
 Bundler:
 
-    gem "sixarm_ruby_sign_in_simple", "~>1.1.4"
+    gem "sixarm_ruby_sign_in_simple", ">=1.1.5", "<2"
 
 Require:
 
