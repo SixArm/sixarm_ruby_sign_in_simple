@@ -5,7 +5,7 @@ SimpleCov.start
 require "sixarm_ruby_sign_in_simple"
 require "sixarm_ruby_application_controller_mock"
 
-class SignInSimpleTest < Test::Unit::TestCase
+class SignInSimpleTest < Minitest::Test
 
   USERNAME='anna'
   PASSWORD='secret'
