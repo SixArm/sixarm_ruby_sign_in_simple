@@ -11,7 +11,9 @@
 
 ## Introduction
 
-Sign in simple methods for a typical rails web application.
+SignInSimple provides methods for authentication in apps, such as typical Ruby On Rails web applications.
+
+SignInSimple accepts the user's username and password, then verifies them.
 
 For docs go to <http://sixarm.com/sixarm_ruby_sign_in_simple/doc>
 
