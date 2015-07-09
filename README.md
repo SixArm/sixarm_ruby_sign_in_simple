@@ -1,4 +1,4 @@
-# SixArm.com » Ruby » <br> SignInSimple gem for typical Rails user sign in
+# SixArm.com » Ruby » <br> SignInSimple for authentication in apps
 
 [![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_sign_in_simple.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_sign_in_simple)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_sign_in_simple.png)](https://travis-ci.org/SixArm/sixarm_ruby_sign_in_simple)
