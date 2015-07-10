@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 gem 'sixarm_ruby_sign_in'
+gem 'sixarm_ruby_application_controller_mock', '>= 1.2.7', '< 2'
 
 group :test do
   gem 'minitest', '>= 5.7.0', '< 6', require: false
