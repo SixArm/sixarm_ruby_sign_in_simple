@@ -1,1 +1,0 @@
-f3cca971ce6fb536367773ca53b7ff1d8cf00ac63204101f867b2e1ddc5cf28f803d3b13cc99e309be7b3b22b9c6a2702dc14cc5cf7f07dea38b45e981a75c35  sixarm_ruby_sign_in_simple-1.1.5.gem

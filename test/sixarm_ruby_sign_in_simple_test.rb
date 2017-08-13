@@ -2,6 +2,7 @@
 require "minitest/autorun"
 require "simplecov"
 SimpleCov.start
+
 require "sixarm_ruby_sign_in_simple"
 require "sixarm_ruby_application_controller_mock"
 
@@ -89,7 +90,7 @@ class User
     pp "User#find(#{id})"
     singleton
   end
-  
+
   def self.find_by_username(username)
     singleton
   end

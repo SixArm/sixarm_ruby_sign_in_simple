@@ -1,17 +1,17 @@
-# SixArm.com » Ruby » <br> SignInSimple for authentication in apps
+# SixArm.com → Ruby → <br> SignInSimple for authentication in apps
 
 <!--HEADER-OPEN-->
 
-[![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_sign_in_simple.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_sign_in_simple)
+[![Gem Version](https://badge.fury.io/rb/sixarm_ruby_sign_in_simple.svg)](http://badge.fury.io/rb/sixarm_ruby_sign_in_simple)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_sign_in_simple.png)](https://travis-ci.org/SixArm/sixarm_ruby_sign_in_simple)
+[![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_sign_in_simple.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_sign_in_simple)
+[![Coverage Status](https://coveralls.io/repos/SixArm/sixarm_ruby_sign_in_simple/badge.svg?branch=master&service=github)](https://coveralls.io/github/SixArm/sixarm_ruby_sign_in_simple?branch=master)
 
 * Git: <https://github.com/sixarm/sixarm_ruby_sign_in_simple>
 * Doc: <http://sixarm.com/sixarm_ruby_sign_in_simple/doc>
 * Gem: <https://rubygems.org/gems/sixarm_ruby_sign_in_simple>
 * Contact: Joel Parker Henderson, <joel@sixarm.com>
-* Changes: See CHANGES.md file.
-* License: See LICENSE.md file.
-* Helping: See CONTRIBUTING.md file.
+* Project: [Changes](CHANGES.md), [License](LICENSE.md), [Contributing](CONTRIBUTING.md).
 
 <!--HEADER-SHUT-->
 
@@ -31,23 +31,21 @@ Want to help? We're happy to get pull requests.
 
 ## Install
 
-To install using a Gemfile, add this:
+### Gem
 
-    gem "sixarm_ruby_sign_in_simple", ">= 1.1.5", "< 2"
+Run this command in your shell or terminal:
 
-To install using the command line, run this:
+    gem install sixarm_ruby_sign_in_simple
 
-    gem install sixarm_ruby_sign_in_simple -v ">= 1.1.5, < 2"
+Or add this to your Gemfile:
 
-To install using the command line with high security, run this:
+    gem 'sixarm_ruby_sign_in_simple'
 
-    wget http://sixarm.com/sixarm.pem
-    gem cert --add sixarm.pem && gem sources --add http://sixarm.com
-    gem install sixarm_ruby_sign_in_simple -v ">= 1.1.5, < 2" --trust-policy HighSecurity
+### Require
 
 To require the gem in your code:
 
-    require "sixarm_ruby_sign_in_simple"
+    require 'sixarm_ruby_sign_in_simple'
 
 <!--INSTALL-SHUT-->
 

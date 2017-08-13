@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.name           = "sixarm_ruby_sign_in_simple"
   s.summary        = "SixArm.com → Ruby → Sign In"
   s.description    = "Sign In methods for a simple sessions in a Rails application"
-  s.version        = "1.1.5"
+  s.version        = "1.2.0"
 
   s.author         = "SixArm"
   s.email          = "sixarm@sixarm.com"
@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
     "test/sixarm_ruby_sign_in_simple_test.rb",
   ]
 
-  s.add_dependency('sixarm_ruby_sign_in', '>= 1.1.5', '< 2')
+  s.add_dependency('sixarm_ruby_sign_in', '>= 1.2.0', '< 2')
 
   s.add_development_dependency('minitest', '>= 5.7.0', '< 6')
   s.add_development_dependency('sixarm_ruby_minitest_extensions', '= 1.0.5')
