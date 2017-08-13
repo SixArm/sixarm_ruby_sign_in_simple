@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
 
   s.name           = "sixarm_ruby_sign_in_simple"
-  s.summary        = "SixArm.com » Ruby » Sign In"
+  s.summary        = "SixArm.com → Ruby → Sign In"
   s.description    = "Sign In methods for a simple sessions in a Rails application"
   s.version        = "1.1.5"
 
