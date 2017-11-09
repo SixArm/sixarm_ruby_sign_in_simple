@@ -1,6 +1,6 @@
 # SixArm.com → Ruby → <br> SignInSimple for authentication in apps
 
-<!--HEADER-OPEN-->
+<!--header-open-->
 
 [![Gem Version](https://badge.fury.io/rb/sixarm_ruby_sign_in_simple.svg)](http://badge.fury.io/rb/sixarm_ruby_sign_in_simple)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_sign_in_simple.png)](https://travis-ci.org/SixArm/sixarm_ruby_sign_in_simple)
@@ -13,7 +13,7 @@
 * Contact: Joel Parker Henderson, <joel@sixarm.com>
 * Project: [Changes](CHANGES.md), [License](LICENSE.md), [Contributing](CONTRIBUTING.md).
 
-<!--HEADER-SHUT-->
+<!--header-shut-->
 
 
 ## Introduction
@@ -27,7 +27,7 @@ For docs go to <http://sixarm.com/sixarm_ruby_sign_in_simple/doc>
 Want to help? We're happy to get pull requests.
 
 
-<!--INSTALL-OPEN-->
+<!--install-opent-->
 
 ## Install
 
@@ -47,7 +47,7 @@ To require the gem in your code:
 
     require 'sixarm_ruby_sign_in_simple'
 
-<!--INSTALL-SHUT-->
+<!--install-shut-->
 
 
 ## Defaults
