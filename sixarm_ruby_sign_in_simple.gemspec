@@ -37,4 +37,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency('coveralls', '>= 0.8.2', '< 2')
   s.add_development_dependency('sixarm_ruby_application_controller_mock', '>= 1.2.7', '< 2') # for test
 
+  s.required_ruby_version = ">= 2.2"
+
 end
